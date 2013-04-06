@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script>$(".text:contains('@')").css("text-decoration", "underline");</script>
+		<link rel="stylesheet" type="text/css" href="design.css"></link>
+	</head>
+	
+	<body>
+   
+		<div id="search_div">
+			<img  id="kus_image" src="resources/kuslar.png"/>
+			<input id="query" type="text"  />
+			<img  id="submit" src="resources/tweet_search.png" />
+			<select id="tweet_count" title="tweet count(default value:5)">
+				<option selected="selected">tweet count</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+				<option>13</option>
+				<option>14</option>
+				<option>15</option>
+			</select>
+			<input id="refresh_time_input" type="text" placeholder="refresh time(sn)" title="refresh time(default value:10sn)"/>
+			
+		</div>
+		
+		<div id="result_div">
+			<div class="tweet" >
+				<div class="left_div">
+					<div class="person_info">
+						<img class="img" src="" />
+						<p class="user"><span class="name"></span><a class="handle" href="" target="_blank" title=""></a></p>
+                        <p class="time"></p>
+					</div>
+					<div class="tweet_text">
+						<p class='text'></p>
+					</div>
+				</div>
+			</div>	
+			<div id="tweets"></div>
+			<div id="error"></div>
+		</div>
+	
+	</body>
+
+	
+</html>

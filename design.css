@@ -1,0 +1,146 @@
+﻿
+body{
+
+	width:1000px;
+	height:100%;
+	background:url(resources/page_background.png);
+	background-attachment:fixed;
+	margin:0 auto;/*body ortalama*/
+}
+
+#search_div{
+	width:100%;
+	height:300px;
+}
+
+#result_div{
+
+	width:100%;
+	/*padding-top:30px;
+	padding-bottom:30px;*/
+	
+}
+
+#kus_image{
+	position:absolute;
+	margin-left:230px;
+	margin-top:70px;
+	float:left;
+}
+
+#query{
+	position:absolute;
+	float:left;
+	margin-left:450px;
+	margin-top:160px;
+	width:200px;
+	height:40px;
+	font-size:25px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#submit{
+	position:absolute;
+	float:left;
+	margin-left:660px;
+	margin-top:160px;
+	height:47px;
+	cursor:pointer;
+}
+
+#tweet_count{
+	float:left;
+	width:95px;
+	margin-top:225px;
+	margin-left:450px;
+	height:23px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+}
+
+#refresh_time_input{
+	float:left;
+	margin-top:225px;
+	margin-left:15px;
+	width:90px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.tweet{
+	/*background:url(resources/tweet_background.png);*/
+	display:none;
+	width:600px;
+	margin-left:200px;
+	margin-top:10px;
+	/*border-bottom-style:groove;
+	border-style:solid;
+	border-radius:0 auto;*/
+	-webkit-border-radius: 0px auto;
+	-moz-border-radius: 0px auto;
+	border-radius: 0px auto;
+}
+
+#error{
+	margin-left:470px;
+	font-size:40px;
+	font-style:italic;
+	font-variant:small-caps;
+}
+
+.left_div{
+	width:600px;
+	float:left;
+	padding:15px;
+	-webkit-border-radius: 0px auto;
+	-moz-border-radius: 0px auto;
+	border-radius: 0px auto;
+	background:url(resources/tweet_background.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+.person_info{
+	height:55px;
+	border-bottom:1px solid gray;
+}
+
+.tweet_text{
+	margin-left:20px;
+	
+}
+
+.handle{
+	margin-left:5px;
+	color:#666;
+	text-decoration:none;
+}
+
+.img{
+	float:left;	
+}
+
+
+.user{
+	margin-left:15px;
+	margin-top:30px;
+	float:left;
+	font-weight:bold;
+}
+
+.time{
+	font-size:12px;	
+	margin-left:430px;
+	margin-top:0px;
+	margin-right:0px;
+	color:#242424;
+}
+
+
+
